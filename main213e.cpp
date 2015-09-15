@@ -47,6 +47,7 @@ int main() {
 				cells = temp;
 				count++;
 			}
+			cells.clear();
 			std::cout << std::endl;
 		} else {
 			cell = c == '1';
